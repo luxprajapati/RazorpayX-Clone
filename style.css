@@ -1,0 +1,33 @@
+#card1bgImg:hover{
+  background-image: url(https://razorpay.com/build/browser/static/instant-settlements-hover.a27f0c91.svg);
+}
+
+#card2bgImg:hover{
+  background-image: url(https://razorpay.com/build/browser/static/upi-autopay-hover.9dfdeb14.svg);
+}
+
+#card3bgImg:hover{
+  background-image: url(https://razorpay.com/build/browser/static/payment-buttons-hover.7e6c7fe5.svg);
+}
+
+#card4bgImg:hover{
+  background-image: url(https://razorpay.com/build/browser/static/credpay-hover.9782edab.svg);
+}
+
+
+#card5bgImg:hover{
+  background-image: url(https://razorpay.com/build/browser/static/unregistered-hover.d7fc0c2c.svg);
+}
+
+.moveCompany{
+  animation: 5s infinite linear movingCompanyImg ;
+}
+@keyframes movingCompanyImg {
+  0%{
+    top:0%;
+  }
+  100%{
+    top: -100%;
+  }
+  
+}
